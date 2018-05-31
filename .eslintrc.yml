@@ -10,13 +10,14 @@ plugins:
 rules:
   quotes:
     - warn
-    - single
+    - double
   indent:
     - error
     - 2
-  react/prefer-stateless-function: off
+  react/prefer-stateless-function: error
   react/sort-comp: warn
-  react/jsx-filename-extension: off
+  react/jsx-filename-extension: # ReactNative unsupported jsx extension
+    off
   react-native/no-unused-styles: error 
   react-native/no-color-literals: off
   react-native/split-platform-components: off
