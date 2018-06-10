@@ -18,6 +18,7 @@ rules:
   react/sort-comp: warn
   react/jsx-filename-extension: # ReactNative unsupported jsx extension
     off
+  react/prop-types: off
   react-native/no-unused-styles: error 
   react-native/no-color-literals: off
   react-native/split-platform-components: off
