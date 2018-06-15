@@ -1,3 +1,4 @@
+parser: babel-eslint
 extends: 
   - airbnb
   - prettier
@@ -26,6 +27,9 @@ rules:
   linebreak-style: off
   no-undef: error
   no-multi-spaces: error
+  consistent-return: warn
   prettier/prettier: error
 settings:
   import/resolver: reactnative
+globals:
+  fetch: false
